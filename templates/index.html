@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ask My DataBase</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+   <div class="container">
+        <header class="header">
+            <h1>AI SQL Query Generator</h1>
+            <p>Transform your natural language questions into powerful SQL queries with AI assistance</p>
+        </header>
+
+        <form class="query-form" id="queryForm" action="{{ url_for('ask') }}" method="post">
+            <div class="form-group">
+                <label for="question" class="form-label">Ask your question</label>
+                <textarea
+                    id="question"
+                    name="question"
+                    class="form-input"
+                    placeholder="e.g., Show me all customers who made purchases in the last 30 days..."
+                    required
+                ></textarea>
+            </div>
+            <button type="submit" class="submit-btn" id="submitBtn">
+                Generate SQL Query
+            </button>
+        </form>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Processing your question and generating SQL query...</p>
+        </div>
+
+        <div class="results-container" id="resultsContainer">
+            <!-- Results will be dynamically inserted here -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 AI SQL Query Generator. Powered by advanced AI technology.</p>
+    </footer>
+</body>
+</html>

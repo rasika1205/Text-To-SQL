@@ -1,0 +1,33 @@
+# created by virtualenv automatically
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Environment variables
+.env
+
+# OS & misc
+.DS_Store
+Thumbs.db
+
+# Logs, databases, temp
+*.log
+*.sqlite3
+*.db
+
+# Backups or temporary files
+*.bak
+*.swp
+*.tmp
+
