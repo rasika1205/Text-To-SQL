@@ -94,7 +94,6 @@ Hereâ€™s a suggested "Future Enhancements" section for your Text-To-SQL projectâ
 
 ---
 
-Let me know if you want this tailored further or if you have specific ideas to include!
 ## Notes
 
 - Ensure your database user is read-only for safety.
