@@ -8,6 +8,19 @@
 
 A web application that translates natural language questions into SQL queries using a Large Language Model (LLM) and executes them on a MySQL database. Built with Flask, LangChain, and Gemini LLM.
 
+## Table of Contents
+
+1. [Features](#features)  
+2. [Demo](#demo)  
+3. [Technologies Used](#technologies-used)  
+4. [Setup](#setup)  
+5. [Directory Structure](#directory-structure)  
+6. [Usage](#usage)  
+7. [Future Enhancements](#future-enhancements)  
+8. [Notes](#notes)  
+9. [License](#license)
+
+   
 ## Features
 
 - Converts natural language questions into accurate SQL queries using Gemini LLM via LangChain.
